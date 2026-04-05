@@ -1,3 +1,10 @@
-let progress = 40; // simulation
+let score = 0;
 
-document.getElementById("progress-bar").style.width = progress + "%";
+function checkAnswer(value) {
+    if (value === 1) {
+        score++;
+    }
+
+    document.getElementById("result").innerText =
+        "Score : " + score;
+}
