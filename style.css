@@ -1,49 +1,23 @@
 body {
-    margin: 0;
-    font-family: Arial;
     background: #020617;
     color: white;
+    font-family: Arial;
+    text-align: center;
 }
 
 .hero {
-    text-align: center;
-    padding: 100px 20px;
-    background: linear-gradient(135deg, #020617, #0f172a);
+    padding: 100px;
 }
 
 .btn {
     background: #22c55e;
-    padding: 15px 30px;
+    padding: 15px;
     text-decoration: none;
     color: black;
-    border-radius: 10px;
-    font-weight: bold;
-}
-
-.features {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 50px;
 }
 
 .card {
     background: #0f172a;
+    margin: 20px;
     padding: 20px;
-    border-radius: 10px;
-    width: 250px;
-    text-align: center;
-}
-
-.progress {
-    background: #1e293b;
-    height: 20px;
-    border-radius: 10px;
-}
-
-.progress-bar {
-    height: 100%;
-    background: #22c55e;
-    width: 0%;
-    border-radius: 10px;
 }
